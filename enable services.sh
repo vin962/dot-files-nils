@@ -7,4 +7,6 @@ exec sudo systemctl enable bluetooth
 exec sudo systemctl --user enable pipewire pipewire-pulse wireplumber
 exec sudo systemctl --user enable dunst.service
 exec sudo systemctl --user enable mpd.service
- 
+exec chmod +x ~/dot-files-nils/hypr/tools/audio.sh
+exec chmod +x ~/dot-files-nils/hypr/tools/clipboard.sh
+exec chmod +x ~/dot-files-nils/hypr/tools/power.sh
