@@ -1,12 +1,3 @@
 #!/bin/bash
-exec sudo systemctl --user enable hyprpolkitagent.service
-exec sudo systemctl enable sddm.service
-exec sudo systemctl --user enable xdg-desktop-portal-gtk.service
-exec sudo systemctl --user enable swww.service
-exec sudo systemctl enable bluetooth
-exec sudo systemctl --user enable pipewire pipewire-pulse wireplumber
-exec sudo systemctl --user enable dunst.service
-exec sudo systemctl --user enable mpd.service
-exec chmod +x ~/dot-files-nils/hypr/tools/audio.sh
-exec chmod +x ~/dot-files-nils/hypr/tools/clipboard.sh
-exec chmod +x ~/dot-files-nils/hypr/tools/power.sh
+exec systemctl --user enable hyprpolkitagent.service & exec systemctl enable sddm.service
+exec systemctl --user enable swww.service & exec systemctl enable bluetooth & exec systemctl --user enable pipewire pipewire-pulse wireplumber & exec systemctl --user enable mpd.service & exec chmod +x ~/dot-files-nils/hypr/tools/audio.sh & exec chmod +x ~/dot-files-nils/hypr/tools/clipboard.sh & exec chmod +x ~/dot-files-nils/hypr/tools/power.sh &
