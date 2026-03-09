@@ -6,4 +6,5 @@ exec sudo systemctl --user enable swww.service
 exec sudo systemctl enable bluetooth
 exec sudo systemctl --user enable pipewire pipewire-pulse wireplumber
 exec sudo systemctl --user enable dunst.service
+exec sudo systemctl --user enable mpd.service
  
