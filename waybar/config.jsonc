@@ -133,4 +133,12 @@
         "format-alt": "<span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>",
         "interval": 2
     }
-}
+},
+
+{
+    "layer": "top",
+    "position": "bottom",
+    "height": 41,
+    "width": 2,
+    "modules-center": ["wlr/taskbar"],
+    
