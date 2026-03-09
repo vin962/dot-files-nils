@@ -1,2 +1,2 @@
 #!/bin/bash
-exec systemctl --user enable hyprpolkitagent.service
+exec exec systemctl enable bluetooth
