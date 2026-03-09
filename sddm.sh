@@ -1,2 +1,2 @@
 #!/bin/bash
-exec exec systemctl enable sddm.service
+exec systemctl enable sddm.service
