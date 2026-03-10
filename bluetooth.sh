@@ -1,2 +1,2 @@
 #!/bin/bash
-exec exec systemctl enable bluetooth
+exec systemctl enable bluetooth
