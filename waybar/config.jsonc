@@ -1,3 +1,4 @@
+[
 {
     "layer": "top",
     "position": "top",
@@ -132,5 +133,29 @@
         "tooltip-format-disconnected": "Disconnected",
         "format-alt": "<span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>",
         "interval": 2
+    },
+},
+{
+    "layer": "top",
+    "position": "bottom",
+    "height": 41,
+    "width": 2,
+    "modules-center": [
+      "wlr/taskbar"
+    ],
+    "margin": "4",
+    "spacing": "5",
+    "sway/window": {
+      "max-length": 50
+    },
+    "wlr/taskbar": {
+      "format": "{icon}",
+      "icon-size": 36,
+      "spacing": 3,
+      "on-click-middle": "close",
+      "tooltip-format": "{title}",
+      "ignore-list": [],
+      "on-click": "activate"
     }
-}
+  }
+  ]
