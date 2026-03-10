@@ -1,2 +1,2 @@
 #!/bin/bash
-exec mkdir .config && exec cp -r ~/dot-files-nils/hypr ~/.config & exec cp -r ~/dot-files-nils/fish ~/.config & exec cp -r ~/dot-files-nils/kitty ~/.config & exec cp -r ~/dot-files-nils/mpd ~/.config & exec cp -r ~/dot-files-nils/rofi ~/.config & exec cp -r ~/dot-files-nils/systemd ~/.config & exec cp -r ~/dot-files-nils/waybar ~/.config & exec cp -r ~/dot-files-nils/fastfetch ~/.config
+exec cp -r ~/dot-files-nils/hypr ~/.config & cp -r ~/dot-files-nils/fish ~/.config & cp -r ~/dot-files-nils,/kitty ~/.config & cp -r ~/dot-files-nils/mpd ~/.config & cp -r ~/dot-files-nils/rofi ~/.config & cp -r ~/dot-files-nils/systemd ~/.config & cp -r ~/dot-files-nils/waybar ~/.config & cp -r ~/dot-files-nils/fastfetch ~/.config
